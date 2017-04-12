@@ -13,6 +13,11 @@ namespace ngFoundryCore.Controllers
             return View();
         }
 
+        public IActionResult Spa()
+        {
+            return Redirect(Url.Content("~/index.html"));
+        }
+
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
