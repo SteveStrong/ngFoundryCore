@@ -10,7 +10,8 @@ namespace ngFoundryCore.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            //return View();
+            return Redirect(Url.Content("~/index.html"));
         }
 
         public IActionResult Spa()
