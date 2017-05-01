@@ -1,6 +1,6 @@
 webpackJsonp([2,4],{
 
-/***/ 15:
+/***/ 10:
 /***/ (function(module, exports) {
 
 /*
@@ -57,7 +57,7 @@ module.exports = function() {
 
 /***/ }),
 
-/***/ 153:
+/***/ 164:
 /***/ (function(module, exports) {
 
 /*
@@ -310,16 +310,16 @@ function updateLink(linkElement, obj) {
 
 /***/ }),
 
-/***/ 157:
+/***/ 168:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(326);
+var content = __webpack_require__(340);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // add the styles to the DOM
-var update = __webpack_require__(153)(content, {});
+var update = __webpack_require__(164)(content, {});
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -337,16 +337,16 @@ if(false) {
 
 /***/ }),
 
-/***/ 158:
+/***/ 169:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(327);
+var content = __webpack_require__(341);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // add the styles to the DOM
-var update = __webpack_require__(153)(content, {});
+var update = __webpack_require__(164)(content, {});
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -364,10 +364,10 @@ if(false) {
 
 /***/ }),
 
-/***/ 326:
+/***/ 340:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(15)();
+exports = module.exports = __webpack_require__(10)();
 // imports
 
 
@@ -379,29 +379,29 @@ exports.push([module.i, ".toast-title{font-weight:700}.toast-message{word-wrap:b
 
 /***/ }),
 
-/***/ 327:
+/***/ 341:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(15)();
+exports = module.exports = __webpack_require__(10)();
 // imports
 
 
 // module
-exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\n\n    .links-style line {\n      stroke: grey;\n      stroke-opacity: 0.6;\n    }\n    \n    .nodes-style circle {\n      stroke: #fff;\n      stroke-width: 1.5px;\n    }", ""]);
+exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\r\n\r\n    .links-style line {\r\n      stroke: grey;\r\n      stroke-opacity: 0.6;\r\n    }\r\n    \r\n    .nodes-style {\r\n      stroke: #fff;\r\n      stroke-width: 1.5px;\r\n    }\r\n\r\n    .text-style {\r\n      color:black;\r\n    }\r\n\r\n    .node-body {\r\n      stroke: #333;\r\n      stroke-width: 1.5px;\r\n    }\r\n\r\n    .svg-canvas {\r\n      /*background-color: #333;*/\r\n      border: red;\r\n      border-style: solid;\r\n    }", ""]);
 
 // exports
 
 
 /***/ }),
 
-/***/ 381:
+/***/ 402:
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(158);
-module.exports = __webpack_require__(157);
+__webpack_require__(169);
+module.exports = __webpack_require__(168);
 
 
 /***/ })
 
-},[381]);
+},[402]);
 //# sourceMappingURL=styles.bundle.js.map
